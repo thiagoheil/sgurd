@@ -3,10 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <header>
         <div className="header-sgurd">
-        <h1>SGURD PRODUCTIONS</h1>
+          <h1>SGURD PRODUCTIONS</h1>
         </div>
       </header>
     </div>
