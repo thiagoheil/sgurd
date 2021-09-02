@@ -1,13 +1,14 @@
 import logo from './sgurd.png';
+import './App.css';
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="LOGO DA SGURD" />
+        <img src={logo} className="App-logo" alt="logo da sgurd"/>
         <p>
-          SEJA BEM VINDO
+          SEJA BEM VINDO.
         </p>
         <a
           className="App-link"
@@ -18,6 +19,9 @@ function App() {
           CANAL DA SGURD
         </a>
       </header>
+
+
+      <h1> teste</h1>
     </div>
   );
 }
