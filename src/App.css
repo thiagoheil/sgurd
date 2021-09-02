@@ -38,3 +38,19 @@
     transform: rotate(360deg);
   }
 }
+
+.div-p {
+  width: 800px;
+  height: 400px;
+}
+
+.oqe {
+  display: flex;
+  justify-content: center;
+
+}
+
+.h1oqe {
+  width: 100%
+}
+

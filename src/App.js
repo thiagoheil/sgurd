@@ -20,8 +20,19 @@ function App() {
         </a>
       </header>
 
+    <div className="oqe">
+      <div className="h1oqe">
+        <h1> O que é a SGURD?</h1>
+      </div>
+      <div className="div-p">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet, erat a consectetur facilisis, felis lorem sollicitudin quam, ut consectetur libero nisl eget elit. Vestibulum felis ex, commodo ac nibh eget, finibus dignissim massa. Integer hendrerit lacus quis mi sagittis, nec consequat risus malesuada. Nullam et turpis vitae ex lacinia hendrerit. Nulla tincidunt ex a fermentum consectetur. Sed quis facilisis justo, id rhoncus nulla. Sed tristique fermentum nisi in porta. Cras rhoncus egestas nulla, ut auctor purus tempor eget.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet, erat a consectetur facilisis, felis lorem sollicitudin quam, ut consectetur libero nisl eget elit. Vestibulum felis ex, commodo ac nibh eget, finibus dignissim massa. Integer hendrerit lacus quis mi sagittis, nec consequat risus malesuada. Nullam et turpis vitae ex lacinia hendrerit. Nulla tincidunt ex a fermentum consectetur. Sed quis facilisis justo, id rhoncus nulla. Sed tristique fermentum nisi in porta. Cras rhoncus egestas nulla, ut auctor purus tempor eget.</p>
+      </div>
+    </div>
 
-      <h1> teste</h1>
+
+
+
     </div>
   );
 }
