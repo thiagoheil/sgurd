@@ -1,5 +1,4 @@
 import logo from './img/sgurd2.jpg';
-import galeria from './img/tag01.png';
 import './App.css';
 
 
