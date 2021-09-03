@@ -16,9 +16,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "react-scripts build && firebase use sgurd-b66a5 && firebase deploy --only hosting",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "react-scripts build && firebase use sgurd-b66a5 && firebase deploy --only hosting"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

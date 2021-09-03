@@ -8,6 +8,7 @@ function App() {
     <Switch>
       <Route exact path="/" component={() => <Home />} />
       <Route exact path="/galeria" component={() => <Galeria />} />
+      <Route path="*" component={() => <h1>not found</h1>} />
     </Switch>
   );
 }
