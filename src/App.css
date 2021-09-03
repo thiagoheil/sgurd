@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Poppins";
 }
 
 .App-logo {
@@ -28,8 +29,24 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header-p {
+  font-weight: 100;
+}
+
+.botao-youtube {
+
+  width:100px;
+  height:50px;
+  background-color: black;
+  border-radius:5px;
+  margin-bottom:5px;
+  text-decoration: none;
+
+}
+
+.link {
+  text-decoration: none;
+  color: white;
 }
 
 @keyframes App-logo-spin {
@@ -44,16 +61,48 @@
 .div-p {
   width: 800px;
   height: 400px;
+  margin: 0 20px 0 20px;
+  font-size:15px;
+
 }
 
 .oqe {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: red;
+  height: 570px;
+  width: 600px;
+  border-radius: 20px;
+  color: white;
 
 }
 
 .h1oqe {
-  width: 100%
+  width: 100%;
 }
 
+.main {
+  background-color: whitesmoke;
+  display:flex;
+  flex-wrap:nowrap;
+  flex-direction: column;
+  padding-top: 22px;
+  align-items: center;
+
+}
+
+.footer {
+  color:white;
+  height: 120px;
+  background-color:black;
+  
+}
+
+.div-contato {
+  margin-bottom: 20px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  line-height: 10px;
+
+}
