@@ -7,7 +7,7 @@ function Home() {
     <div className="App">
       <header class="App-header">
         <img src={logo} className="App-logo" alt="logo da sgurd" />
-        <p class="header-p">SEJA BEM VINDO.</p>
+        <p class="header-p">SEJA.</p>
       </header>
       <div class="main">
         <div className="oqe">
