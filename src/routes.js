@@ -6,8 +6,8 @@ import { Galeria, Home } from "./pages";
 function Routes() {
   return (
     <Switch>
-      <Route path="/" exact component={Home} />
-      <Route path="/galeria" exact component={Galeria} />
+      <Route exact path="/" component={() => <Home />} />
+      <Route exact path="/galeria" component={() => <Galeria />} />
     </Switch>
   );
 }
