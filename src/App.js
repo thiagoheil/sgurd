@@ -1,4 +1,5 @@
 import logo from './img/sgurd2.jpg';
+import galeria from './img/tag01.png';
 import './App.css';
 
 
@@ -34,7 +35,14 @@ function App() {
     </div>
     </div>
     
-
+    <div class="fundo-galeria">
+    <div class="galeria-arte">
+    <div>
+        <h2 class="h2-galeria">Conheça nossa galeria de arte!</h2>
+      </div>
+    </div>
+      
+    </div>
 
 
     </div>
