@@ -1,5 +1,4 @@
 import React from "react";
-import Routes from "./routes.js";
 import { Switch, Route, withRouter } from "react-router-dom";
 import { Galeria, Home } from "./pages";
 
