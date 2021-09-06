@@ -1,65 +1,84 @@
 .section-site {
-    font-family: "Poppins";
+  font-family: "Poppins";
+}
+
+.botaohome {
+    width: 50px;
+    height: 50px;
+}
+
+.botaohome:hover {
+    cursor:pointer;
 }
 
 .header {
-    background: black;
-    color:white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 100;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 100;
+  padding-left: 30px;
+  padding-right: 20px;
 }
 
 .footer-galeria {
-    background-color: black;
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-galeria {
-    height: 600px;
-    background-image: linear-gradient(to bottom,#a6210f, #701f14) ;
-    display: flex;
+  height: 700px;
+  background-image: linear-gradient(to bottom, #a6210f, #701f14);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
 }
 
 .card-imagem {
-    height: 550px;
-    width: 330px;
-    background-image: linear-gradient(to bottom,#701f14, #a6210f) ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0.2rem;
+  height: 550px;
+  width: 330px;
+  background-image: linear-gradient(to bottom, #701f14, #a6210f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2rem;
+  padding-right: 0 30px 0 30px;
+  margin: 0 50px 0 0px;
 }
 
 .imagem-galeria {
-     height: 530px;
-     width: 300px;
-     border-radius: 0.2rem;
+  height: 530px;
+  width: 300px;
+  border-radius: 0.2rem;
+  margin: 50px 50px 50px 50px;
 }
 .imagem-galeria:hover {
-    animation: zoom 25s;
-    cursor: pointer;
+  animation: zoom 25s;
+  cursor: pointer;
 }
 
 .div-galeria {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 30px 20px 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px 20px 30px;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 @keyframes zoom {
-    /* 0%{
+  /* 0%{
         transform: scale(1);
     } */
-    5% {
-        transform:scale(1.2)
-    }
-    100% {
-        transform: scale(1.2);
-    }
+  5% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1.2);
+  }
 }

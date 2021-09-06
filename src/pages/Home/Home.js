@@ -3,6 +3,8 @@ import logo from "./img/sgurd2.jpg";
 import "./App.css";
 
 
+
+
 function Home() {
   return (
     <div className="App">
@@ -52,11 +54,18 @@ function Home() {
         </div>
 
         <div class="fundo-galeria">
+        <a
+              class="link"
+              href="http://localhost:3000/galeria"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
           <div class="galeria-arte">
             <div>
               <h2 class="h2-galeria">Conheça nossa galeria de arte!</h2>
             </div>
           </div>
+          </a>
         </div>
       </div>
 
@@ -67,6 +76,8 @@ function Home() {
           <h3>(51) 99765-4234</h3>
         </div>
       </div>
+
+
     </div>
   );
 }
