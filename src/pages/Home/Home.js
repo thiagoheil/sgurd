@@ -2,12 +2,13 @@ import React from "react";
 import logo from "./img/sgurd2.jpg";
 import "./App.css";
 
+
 function Home() {
   return (
     <div className="App">
       <header class="App-header">
         <img src={logo} className="App-logo" alt="logo da sgurd" />
-        <p class="header-p">SEJA.</p>
+        <p class="header-p">SEJA BEM VINDO.</p>
       </header>
       <div class="main">
         <div className="oqe">

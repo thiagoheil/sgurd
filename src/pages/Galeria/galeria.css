@@ -1,0 +1,65 @@
+.section-site {
+    font-family: "Poppins";
+}
+
+.header {
+    background: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.footer-galeria {
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-galeria {
+    height: 600px;
+    background-image: linear-gradient(to bottom,#a6210f, #701f14) ;
+    display: flex;
+}
+
+.card-imagem {
+    height: 550px;
+    width: 330px;
+    background-image: linear-gradient(to bottom,#701f14, #a6210f) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2rem;
+}
+
+.imagem-galeria {
+     height: 530px;
+     width: 300px;
+     border-radius: 0.2rem;
+}
+.imagem-galeria:hover {
+    animation: zoom 25s;
+    cursor: pointer;
+}
+
+.div-galeria {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px 20px 30px;
+}
+
+@keyframes zoom {
+    /* 0%{
+        transform: scale(1);
+    } */
+    5% {
+        transform:scale(1.2)
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
